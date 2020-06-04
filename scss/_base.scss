@@ -1,0 +1,106 @@
+body{
+ color: $font-color_default;
+ font-size: $font-size_default;
+ line-height: 2;
+ letter-spacing: 1px;
+ font-family: 'Noto Sans JP', sans-serif;
+}
+a{
+ color: $font-color_default;
+ text-decoration: none;
+}
+
+
+//ログイン前タイトル部分
+.title{
+ text-align: center;
+ font-size: $font-size_xxl;
+ letter-spacing: 1rem;
+}
+.subtitle{
+ text-align: center;
+ font-size: $font-size_l;
+ margin-bottom: $space_m;
+}
+
+//ボタン
+.btn{
+ &__lg{
+  background: $bg-btn_lg;
+  border: none;
+  border-radius: $border-radius;
+  width: 17rem;
+  padding: 0.75rem 0;
+  font-size: $font-size_s;
+  transition: .5s;
+  &:hover{
+   background: $bg-btn_lg-hover;
+  }
+ }
+ &__mid{
+  background: $bg-btn_mid;
+  border: none;
+  border-radius: $border-radius;
+  width: 9rem;
+  padding: 0.75rem 0;
+  font-size: $font-size_s;
+  transition: .5s;
+  margin-top: $space_xxs;
+  &:hover{
+   background: $bg-btn_mid-hover;
+  }
+ }
+ &__sm{
+  background: $bg-btn_mid;
+  color: $font-color_sub;
+  font-size: $font-size_s;
+  border: none;
+  border-radius: $border-radius;
+  width: 3.5rem;
+  padding: $space_4s 0;
+  text-align: center;
+ }
+ &__header{
+  display: flex;
+ }
+ &__index{
+  display: flex;
+  justify-content: center;
+ }
+ &__link{
+  color: $font-color_btn;
+ }
+ &__outer{
+  display: flex;
+  justify-content: space-between;
+  margin-top: $space_l;
+  width: 35rem;
+  margin: 0 auto;
+ }
+ &__edit{
+  color: $font-color_sub;
+  display: inline-block;
+  height: 1.3rem;
+ }
+}
+
+//エラーメッセージ
+.err-msg{
+ color: $font-color_required;
+ font-size: $font-size_s;
+}
+
+//ログイン後ページ
+main{
+ display: flex;
+ width: 70rem;
+ margin: 0 auto;
+ padding-bottom: $space_xxl;
+}
+
+//セクションタイトル
+.section__title{
+ margin-bottom: $space_s;
+ font-size: $font-size_l;
+ letter-spacing: 3px;
+}

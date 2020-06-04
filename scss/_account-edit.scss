@@ -1,0 +1,33 @@
+.account-edit{
+ order: 2;
+ width: 65%;
+ padding: $space_xxl 0;
+ &__container{
+  width: 80%;
+  padding-bottom: $space_s;
+  margin: 0 auto;
+ }
+ &__outer{
+  margin-bottom: $space_xs;
+ }
+ &__inner{
+  margin-bottom: $space_s;
+ }
+ &__label{
+  margin-bottom: $space_3s;
+ }
+ &__link{
+  color: $font-color_default;
+  transition: .3s;
+  &:hover{
+   opacity: $opacity;
+  }
+ }
+ &__form{
+  height: 2.5rem;
+  border: $border;
+  padding: 0 $space_3s;
+  width: 100%;
+  border-radius: $border-radius;
+ }
+}

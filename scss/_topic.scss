@@ -1,0 +1,48 @@
+.topic{
+ order: 2;
+ width: 65%;
+ &__outer{
+  padding: $space_xxl 0;
+  margin: 0 auto;
+ }
+ &__heading{
+  margin-bottom: $space_s;
+ }
+ &__word{
+  font-size: $font-size_m;
+  margin-right: $space_xxs;
+  display: inline-block;
+ }
+ &__inner{
+  display: flex;
+ }
+ &__img{
+  width: 100%;
+  &-outer{
+   width: 45%;
+  }
+ }
+ &__content{
+  width: 55%;
+  padding-left: $space_s;
+ }
+ &__mean{
+  margin-bottom: $space_xxs;
+  margin-right: $space_xs;
+  display: inline-block;
+ }
+ &__label{
+  background: $bg-label;
+  font-size: $font-size_s;
+  padding: $space_4s $space_xxs;
+  border-radius: $border-radius;
+ }
+ &__items{
+  display: flex;
+  font-size: $font-size_s;
+  justify-content: flex-end;
+ }
+ &__item{
+  margin-right: $space_xs;
+ }
+}

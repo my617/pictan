@@ -1,0 +1,29 @@
+.pass-remind{
+ text-align: center;
+ padding-bottom: $space_l;
+ &__form{
+  width: 20rem;
+ }
+ &__text{
+  margin-bottom: $space_s;
+ }
+ &__label{
+  margin-bottom: $space_xxs;
+ }
+ &__inner{
+  margin-bottom: $space_xxl;
+ }
+ &__form{
+  margin-right: $space_xxs;
+  height: 2.5rem;
+  padding: 0 $space_3s;
+  bottom: $border;
+  border-radius: $border-radius;
+ }
+ &__link{
+  transition: .5s;
+  &:hover{
+   opacity: $opacity;
+  }
+ }
+}

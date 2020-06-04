@@ -1,0 +1,51 @@
+.mypage{
+ order: 2;
+ width: 65%;
+ padding: $space_xxl 0;
+ &__subtitle{
+  margin-bottom: $space_xxs;
+  font-size: $font-size_m;
+ }
+ &__search{
+  margin-bottom: $space_m;
+  &-inner{
+   display: flex;
+  }
+ }
+ &__submit{
+  width: 14rem;
+  height: 2rem;
+  padding: 0 $space_3s;
+  border: $border;
+  border-radius: $border-radius;
+ }
+ &__select{
+  margin-right: $space_xxs;
+  width: 14rem;
+  height: 2rem;
+  padding: 0 $space_3s;
+  border: $border;
+  border-radius: $border-radius;
+ }
+ &__item{
+  border-top: $border;
+  &:last-child{
+   border-bottom: $border;
+  }
+  &-link{
+   display: block;
+   padding: $space_3s $space_xxs;
+   transition: .5s;
+   &:hover{
+    background: $bg-list;
+   }
+  }
+  &-word{
+   padding-right: $space_3l;
+  }
+  &-detail{
+   padding-right: $space_xs;
+   font-size: $font-size_s;
+  }
+ }
+}

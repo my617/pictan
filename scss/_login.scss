@@ -1,0 +1,36 @@
+.login{
+ padding: $space_s 0 $space_xxl 0;
+ &__outer{
+  width: 35rem;
+  margin: 0 auto $space_xxl auto;
+ }
+ &__inner{
+  margin-bottom: $space_xs;
+ }
+ &__form{
+  width: 100%;
+  height: 2.5rem;
+  padding: 0 $space_3s;
+  border: $border;
+  border-radius: $border-radius;
+ }
+ &__check{
+  display: flex;
+  align-items: center;
+  margin-bottom: $space_xxs;
+ }
+ &__box{
+  margin-right: $space_xxs;
+  width: 1rem;
+  height: 1rem;
+ }
+ &__link{
+  display: block;
+  font-size: $font-size_s;
+  transition: .5s;
+  line-height: 1rem;
+  &:hover{
+   opacity: $opacity;
+  }
+ }
+}

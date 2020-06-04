@@ -1,0 +1,52 @@
+/* ===========
+* 変数
+* ============ */
+/* font-size */
+$font-size_xs: 0.75rem; /* 12px */
+$font-size_s: 0.875rem; /*14px*/
+$font-size_default: 1rem; /*16px*/
+$font-size_m: 1.125rem; /*18px*/
+$font-size_l: 1.5rem; /*24px*/
+$font-size_xl: 2rem; /*32px*/
+$font-size_xxl: 3rem; /*48px*/
+
+/* margin・padding */
+$space_4s: 0.3rem;
+$space_3s: 0.5rem;
+$space_xxs: 1rem;
+$space_xs: 1.5rem;
+$space_s: 2rem;
+$space_m: 2.5rem;
+$space_l: 3rem;
+$space_xl: 3.5rem;
+$space_xxl: 4rem;
+$space_3l: 5rem;
+$space_4l: 8rem;
+
+/* font-color */
+$font-color_default: #504440;
+$font-color_sub: #fff;
+$font-color_btn: #404040;
+$font-color_required: #f08080;
+
+/* background color */
+// $bg-btn_mid: #C9AD9F;
+$bg-btn_mid: #FBD246;
+$bg-btn_mid-hover: #FEE9A3;
+//$bg-btn_lg: #BEDEFF;
+$bg-btn_lg: #C0D136;
+$bg-btn_lg-hover: #E2F43F;
+$bg-list: #FCF4F0;
+$bg-label: #EDCEBE;
+$bg-page: #504440;
+$bg-drop: #FFFAFA;
+$bg-index: #F2C082;
+
+/* others */
+$border: 1px solid #B4A89D;
+$border-sub-ttl: 5px solid #FFBD40;
+$border-input: 2px dotted #C9AD9F;
+$border-page: 1px solid #504440;
+$opacity: 0.7;
+$transition: .3s;
+$border-radius: 5px;

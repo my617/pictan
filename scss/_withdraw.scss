@@ -1,0 +1,10 @@
+.withdraw{
+ order: 2;
+ width: 65%;
+ &__outer{
+  border-bottom: $border;
+  padding-bottom: $space_s;
+  margin: 0 auto;
+ }
+ 
+}

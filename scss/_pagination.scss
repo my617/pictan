@@ -1,0 +1,26 @@
+.pagination{
+ &__items{
+  margin: $space_3l;
+  display: flex;
+  justify-content: center;
+ }
+ &__item{
+  margin-left: $space_3s;
+  &:first-child{
+   margin-left: 0;
+  }
+ }
+ &__link{
+  width: 2.5rem;
+  height: 2.5rem;
+  display: block;
+  border-radius: 50%;
+  background: $bg-label;
+  text-align: center;
+  line-height: 2.5rem;
+  transition: .3s;
+  &:hover{
+   opacity: $opacity;
+  }
+ }
+}
